@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Remart",
+        "tag": [
+            "MERN",
+            "React JS",
+            "Full Stack"
+        ],
+        "thumb": "https://ibb.co/LrTnnCn",
+        "subtitle": "A product resell React App",
+        "description": [
+            "Authentication and authorization Implemented for admin, seller & buyer roles by Firebase & JWT token",
+            "Sellers can manage, and advertise their products. They can take payment by stripe",
+            "Admin can verify a seller for the blue tick and manage buyer reports, and all buyer's & sellers' accounts."
+        ],
+        "technology": "React JS, Node JS, Express JS, MongoDB, Firebase, Stripe, Tailwind, daisyui, JWT, Tanstack.",
+        "live": "https://remart-90e28.web.app/",
+        "server": "https://github.com/kamrul373/remart-server",
+        "client": "https://github.com/kamrul373/remart-client"
+    },
+    {
+        "title": "Consultio",
+        "tag": [
+            "MERN",
+            "React JS"
+        ],
+        "thumb": "https://ibb.co/CH8CV00",
+        "subtitle": "A visa consultancy React App",
+        "description": [
+            "Authentication by Email password & social login using Firebase.",
+            "Add Service & reviews only for logged-in Users using React, Express JS, MongoDB & Context API.",
+            "JWT token authorization for managing my reviews (Edit, Delete)."
+        ],
+        "technology": "React JS, Node JS, Express JS, MongoDB, Firebase, Tailwind, daisyui, JWT, dotenv, cors.",
+        "live": "https://consultio-f2fd2.web.app/",
+        "server": "https://github.com/kamrul373/consultio-server/",
+        "client": "https://github.com/kamrul373/consultio-client"
+    },
+    {
+        "title": "EDUAID",
+        "tag": [
+            "MERN",
+            "React JS"
+        ],
+        "thumb": "https://ibb.co/9Yp2XK1",
+        "subtitle": "An educational React App",
+        "description": [
+            "Dynamically course loaded, filtering by categories & type using React, Express JS & MongoDB.",
+            "Dynamic course details route & download course PDF using react to PDF & React router.",
+            "Private Checkout route forcing to login & authenticate by Firebase, React router & Context API"
+        ],
+        "technology": "React JS, Node JS, Express JS, MongoDB, Firebase, Bootstrap, cors.",
+        "live": "https://eduaid-ab186.web.app/",
+        "server": "https://github.com/kamrul373/eduaid-server/",
+        "client": "https://github.com/kamrul373/EDUAID-client"
+    },
+    {
+        "title": "Dcotros Portal",
+        "tag": [
+            "MERN",
+            "React JS",
+            "Full Stack"
+        ],
+        "thumb": "https://ibb.co/rpDBHMK",
+        "subtitle": "A Doctor management React App"
+    }
+]

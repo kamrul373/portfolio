@@ -10,8 +10,6 @@
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    transition: right linear 1s;
-
 }
 
 .node {
