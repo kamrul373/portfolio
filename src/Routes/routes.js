@@ -1,4 +1,5 @@
 import Details from "../components/Details/Details";
+import Blogs from "../pages/Blogs/Blogs";
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Main } = require("../Layout/Main");
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
                 path: "project-details/:id",
                 loader: async ({ params }) => fetch(`http://localhost:5000/projectDetails/${params.id}`),
                 element: <Details></Details>
+            },
+            {
+                path: "/blogs",
+                element: <Blogs></Blogs>
             }
         ]
     }

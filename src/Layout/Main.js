@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Footer from '../components/Shared/Footer/Footer';
 import Navbar from '../components/Shared/Navbar/Navbar';
-
+import resume from "../assets/pdf/resume-of-kamrul-hasan.pdf"
 const Main = () => {
     return (
         <div className=''>
@@ -34,8 +34,10 @@ const Main = () => {
                     <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 bg-base-100">
                         {/* <!-- Sidebar content here --> */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><Link className='btn'>Resume</Link></li>
+                        <li><Link to="/" className='mb-3'>Home</Link></li>
+                        <li><Link to="/blogs" className='mb-3'>Blogs</Link></li>
+                        <li><a href="#contact" className='mb-3'>Contact</a></li>
+                        <li><a href={resume} className="resume" download>Resume</a></li>
                     </ul>
                 </div>
             </div>

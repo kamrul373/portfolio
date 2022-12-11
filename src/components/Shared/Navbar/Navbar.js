@@ -6,8 +6,11 @@ const Navbar = () => {
     return (
         <ul className="menu menu-horizontal">
             {/* <!-- Navbar menu content here --> */}
-            <li><Link>Navbar Item 1</Link></li>
+            <li><Link to="/" className='mr-3'>Home</Link></li>
+            <li><Link to="/blogs" className='mr-3'>Blogs</Link></li>
+            <li><a href="#contact" className='mr-3'>Contact</a></li>
             <li><a href={resume} className="resume" download>Resume</a></li>
+
         </ul>
     );
 };
