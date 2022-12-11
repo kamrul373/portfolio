@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-    const { title, subtitle, description, tag, thumb, live, server, client, technology, id } = project;
+    const { title, subtitle, tag, thumb, id } = project;
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card lg:w-96 bg-base-100 shadow-xl">
             <figure><img src={thumb} alt="Shoes" className='h-[400px] w-full' /></figure>
             <div className="card-body">
                 <h2 className="card-title">

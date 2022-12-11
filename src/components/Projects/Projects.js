@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div className='lg:px-16 px-6 py-16'>
             <h2 className='lg:text-4xl text-2xl text-center font-bold mb-8'>Projects</h2>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-content-center'>
                 {
                     projects.map(proj => <ProjectCard
                         key={proj.id}
