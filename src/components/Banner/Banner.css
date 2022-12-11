@@ -1,0 +1,35 @@
+.typing {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-logo {
+    animation-name: banner-logo-spin;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: right linear 1s;
+
+}
+
+.node {
+    transition: right linear 1s;
+}
+
+.banner:hover .node,
+.banner:hover .banner-logo {
+    right: 100px;
+
+}
+
+@keyframes banner-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
